@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhonions\LaravelCalendar;
+namespace Dhonions\Laravel10FullCalendar;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
@@ -14,13 +14,13 @@ class ServiceProvider extends BaseServiceProvider
     public function register()
     {
         $this->app->bind('laravel-calendar', function ($app) {
-            return $app->make('Dhonions\LaravelCalendar\Calendar');
+            return $app->make('Dhonions\Laravel10FullCalendar\Calendar');
         });
     }
 
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views/', 'laravel-calendar');
+        $this->loadViewsFrom(__DIR__.'/views/', 'laravel-10-full-calendar');
     }
 
     /**
@@ -30,6 +30,6 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function provides()
     {
-        return ['laravel-calendar'];
+        return ['laravel-10-full-calendar'];
     }
 }
