@@ -37,10 +37,10 @@ $event = \Calendar::event(
 ```
 #### Implementing `Event` Interface
 
-Alternatively, you can use an existing class and have it implement `Dhonions\LaravelCalendar\Event`. An example of an Eloquent model that implements the `Event` interface:
+Alternatively, you can use an existing class and have it implement `Dhonions\Laravel10FullCalendar\Event`. An example of an Eloquent model that implements the `Event` interface:
 
 ```php
-class EventModel extends Eloquent implements \Dhonions\LaravelCalendar\Event
+class EventModel extends Eloquent implements \Dhonions\Laravel10FullCalendar\Event
 {
 
     protected $dates = ['start', 'end'];
@@ -98,10 +98,10 @@ class EventModel extends Eloquent implements \Dhonions\LaravelCalendar\Event
 
 #### `IdentifiableEvent` Interface
 
-If you wish for your existing class to have event IDs, implement `\Dhonions\LaravelCalendar\IdentifiableEvent` instead. This interface extends `\Dhonions\LaravelCalendar\Event` to add a `getId()` method:
+If you wish for your existing class to have event IDs, implement `\Dhonions\Laravel10FullCalendar\IdentifiableEvent` instead. This interface extends `\Dhonions\Laravel10FullCalendar\Event` to add a `getId()` method:
 
 ```php
-class EventModel extends Eloquent implements \Dhonions\LaravelCalendar\IdentifiableEvent
+class EventModel extends Eloquent implements \Dhonions\Laravel10FullCalendar\IdentifiableEvent
 {
 
     // Implement all Event methods ...
@@ -144,7 +144,7 @@ $event = \Calendar::event(
 
 ```php
 <?php
-class CalendarEvent extends \Illuminate\Database\Eloquent\Model implements \Dhonions\LaravelCalendar\Event
+class CalendarEvent extends \Illuminate\Database\Eloquent\Model implements \Dhonions\Laravel10FullCalendar\Event
 {
     //...
 
