@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhonions\LaravelCalendar;
+namespace Dhonions\Laravel10FullCalendar;
 
 interface IdentifiableEvent extends Event
 {
