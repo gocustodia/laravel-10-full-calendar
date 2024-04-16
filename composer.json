@@ -1,5 +1,5 @@
 {
-    "name": "donions/laravel-10-full-calendar",
+    "name": "dhonions/laravel-10-full-calendar",
     "description": "Laravel helper for FullCalendar.io forked from acaronlex/laravel-calendar to install on Laravel 10",
     "license": "MIT",
     "type": "package",
