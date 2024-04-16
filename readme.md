@@ -1,6 +1,6 @@
-# Laravel 9 Full Calendar 5 Helper
+# Laravel 10 Full Calendar 5 Helper
 
-##This package is forked from acaronlex/laravel-calendar with a simple composer update to allow install on Laravel 9.
+##This package is forked from acaronlex/laravel-calendar with a simple composer update to allow install on Laravel 10.
 
 This is a simple helper package to make generating [http://fullcalendar.io](http://fullcalendar.io) in Laravel apps easier.
 
@@ -9,7 +9,7 @@ Thanks to [@maddhatter](https://github.com/maddhatter) for the [initial repo](ht
 ## Installing
 Require the package with composer using the following command:
 
-    composer require dhonions/laravel-calendar
+    composer require dhonions/laravel-10-full-calendar
 
 The provider and `Calendar` alias will be registered automatically.
 
