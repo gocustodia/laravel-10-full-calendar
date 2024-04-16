@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "illuminate/support": "^9|^10|^11",
+        "illuminate/support": "^9|^10|^11"
 
     },
     "autoload": {
