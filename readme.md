@@ -1,6 +1,6 @@
-# Laravel 10 Full Calendar 5 Helper
+# Laravel 10 Full Calendar 5 Helper - James
 
-##This package is forked from acaronlex/laravel-calendar with a simple composer update to allow install on Laravel 10.
+##This package is forked from dhonions/laravel-10-full-calendar to fix the issue with blade view path hint error.
 
 This is a simple helper package to make generating [http://fullcalendar.io](http://fullcalendar.io) in Laravel apps easier.
 

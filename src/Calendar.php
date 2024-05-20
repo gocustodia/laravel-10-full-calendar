@@ -104,7 +104,7 @@ class Calendar
     {
         $options = $this->getOptionsJson();
 
-        return view($this->getEs6() ? 'laravel-calendar::script-es6' : 'laravel-calendar::script', [
+        return view($this->getEs6() ? 'laravel-10-full-calendar::script-es6' : 'laravel-10-full-calendar::script', [
             'id' => $this->getId(),
             'options' => $options,
         ]);
