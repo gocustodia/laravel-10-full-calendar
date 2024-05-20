@@ -1,12 +1,12 @@
 {
-    "name": "dhonions/laravel-10-full-calendar",
-    "description": "Laravel helper for FullCalendar.io forked from acaronlex/laravel-calendar to install on Laravel 10",
+    "name": "huhu2323/laravel-10-full-calendar",
+    "description": "Laravel helper for FullCalendar.io forked from dhonions/laravel-calendar to install on Laravel 10",
     "license": "MIT",
     "type": "package",
     "authors": [
         {
             "name": "laravel-10-full-calendar",
-            "email": "acaronlex@outlook.com"
+            "email": "jameskyurem@gmail.com"
         }
     ],
     "require": {
@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Dhonions\\Laravel10FullCalendar\\": "src"
+            "Huhu2323\\Laravel10FullCalendar\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dhonions\\Laravel10FullCalendar\\ServiceProvider"
+                "Huhu2323\\Laravel10FullCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Dhonions\\Laravel10FullCalendar\\Facades\\Calendar"
+                "Calendar": "Huhu2323\\Laravel10FullCalendar\\Facades\\Calendar"
             }
         }
     },
