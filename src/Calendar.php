@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhonions\Laravel10FullCalendar;
+namespace Huhu2323\Laravel10FullCalendar;
 
 use ArrayAccess;
 use DateTime;
