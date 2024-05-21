@@ -14,7 +14,7 @@ class ServiceProvider extends BaseServiceProvider
     public function register()
     {
         $this->app->bind('laravel-calendar', function ($app) {
-            return $app->make('Dhonions\Laravel10FullCalendar\Calendar');
+            return $app->make('Custodia\Forks\Laravel10FullCalendar\Facades\Calendar');
         });
     }
 

@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Huhu2323\\Laravel10FullCalendar\\": "src"
+            "Custodia\\Forks\\Laravel10FullCalendar\\": "src"
         }
     },
     "extra": {
