@@ -20,16 +20,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Custodia\\Forks\\Laravel10FullCalendar\\": "src"
+            "CustodiaForks\\Laravel10FullCalendar\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Custodia\\Forks\\Laravel10FullCalendar\\ServiceProvider"
+                "CustodiaForks\\Laravel10FullCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Custodia\\Forks\\Laravel10FullCalendar\\Facades\\Calendar"
+                "Calendar": "CustodiaForks\\Laravel10FullCalendar\\Facades\\Calendar"
             }
         }
     },
