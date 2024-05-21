@@ -33,4 +33,11 @@ interface Event
      * @return DateTime
      */
     public function getEnd();
+
+    /**
+     * Get the current options
+     *
+     * @return array
+     */
+    public function getEventOptions();
 }
