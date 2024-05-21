@@ -1,11 +1,15 @@
 {
-    "name": "huhu2323/laravel-10-full-calendar",
+    "name": "gocustodia/laravel-10-full-calendar",
     "description": "Laravel helper for FullCalendar.io forked from dhonions/laravel-calendar to install on Laravel 10",
     "license": "MIT",
     "type": "package",
     "authors": [
         {
-            "name": "laravel-10-full-calendar",
+            "name": "custodia",
+            "email": "dev@custodia.com"
+        },
+        {
+            "name": "huhu2323",
             "email": "jameskyurem@gmail.com"
         }
     ],
@@ -22,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Huhu2323\\Laravel10FullCalendar\\ServiceProvider"
+                "Custodia\\Forks\\Laravel10FullCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Huhu2323\\Laravel10FullCalendar\\Facades\\Calendar"
+                "Calendar": "Custodia\\Forks\\Laravel10FullCalendar\\Facades\\Calendar"
             }
         }
     },
