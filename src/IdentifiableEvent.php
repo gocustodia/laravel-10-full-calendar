@@ -1,6 +1,6 @@
 <?php
 
-namespace Huhu2323\Laravel10FullCalendar;
+namespace Custodia\Forks\Laravel10FullCalendar;
 
 interface IdentifiableEvent extends Event
 {
