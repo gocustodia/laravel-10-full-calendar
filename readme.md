@@ -1,4 +1,4 @@
-# Laravel 10 Full Calendar 5 Helper - James
+# Laravel 10 Full Calendar 5 Helper - Custodia
 
 ##This package is forked from dhonions/laravel-10-full-calendar to fix the issue with blade view path hint error.
 
@@ -9,7 +9,7 @@ Thanks to [@maddhatter](https://github.com/maddhatter) for the [initial repo](ht
 ## Installing
 Require the package with composer using the following command:
 
-    composer require dhonions/laravel-10-full-calendar
+    composer require gocustodia/laravel-10-full-calendar
 
 The provider and `Calendar` alias will be registered automatically.
 
