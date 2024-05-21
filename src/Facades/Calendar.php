@@ -1,6 +1,6 @@
 <?php
 
-namespace Custodia\Forks\Laravel10FullCalendar\Facades;
+namespace CustodiaForks\Laravel10FullCalendar\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

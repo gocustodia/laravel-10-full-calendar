@@ -1,6 +1,6 @@
 <?php
 
-namespace Custodia\Forks\Laravel10FullCalendar;
+namespace CustodiaForks\Laravel10FullCalendar;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
